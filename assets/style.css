@@ -15,7 +15,7 @@ header {
 
 header img {
     align-items: center;
-    margin: auto 2px;
+    margin: 10px;
     max-width: 100%;
 }
 
@@ -23,7 +23,7 @@ h1 {
     font-family: tenor sans;
     font-size: 4rem;
     margin: 0;
-    padding-top: .25em;
+    padding-top: .50em;
 }
 
 nav {
@@ -55,7 +55,7 @@ nav a:hover {
 /* MAIN STYLING */
 div {
     text-align: center;
-    margin: 2% 15%;
+    margin: 2% 30%;
 }
 
 h2 {
