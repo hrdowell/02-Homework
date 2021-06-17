@@ -41,7 +41,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 To stay organized while creating an application with multiple advanced CSS properties, I knew I wanted to get started with wireframing. I listed all of the requirements for my website and sketched out a UI that incorporated all of them:
 
-![](assets\02-homework@2.5x.png)
+<img src="assets\02-homework@2.5x.png" style="zoom:33%;" />
 
 I decided that the WORK section CSS would include the measurement "rem" and CSS properties like ""<width: 100%;" & "font-size: 3em;" to ensure that it is responsive on any device. I knew I wanted to use responsive measurements so that the transitions from one size to another on the UI was not choppy or messy. This way, users can view a clean and evenly-proportioned website no matter the screen size.
 
@@ -52,12 +52,12 @@ I decided that the WORK section CSS would include the measurement "rem" and CSS 
 - I seamlessly created my index.html file based on the wireframe I had just created. 
 - I was sure to create a header with a nav section that lists about, work, and contact with relative links to the sections with corresponding id's. 
 
-![](assets\02hwcommit1nav.PNG)
+<img src="assets\02hwcommit1nav" style="zoom:33%;" />
 
 - I created div's with the id "about" and "work", with semantic tags between them for the "work" section. Because I knew I would be styling 5 images in a grid layout, I kept the heading element "h2 id= 'work'" element outside of the section that would get a grid layout. I included figure tags with figcaption tags nested inside, all inside of a section tag that I would later format using grid. I gave the first box a unique id, "box1" because it needed to be larger than the other images. 
 - With all images uploaded, I included alt tags to make my website accessible to those with disabilities. 💡I also included "target='_blank'" within the "a" tags for each image and contact links, so that the linked websites would open in a new tag.💡 
 
-![](assets\02hwcommit1section.PNG)
+<img src="assets\02hwcommit1section.PNG" style="zoom:33%;" />
 
 - I created a Contact div within the main tags and finished up the index with a footer, containing a paragraph.
 
@@ -67,7 +67,7 @@ I decided that the WORK section CSS would include the measurement "rem" and CSS 
 - Next, I created sections within the CSS using comments for the header, main, "My Work" section, and the footer
 - For the header, I knew I could use flex styling with responsive measurements (em, rem). I used "justify-content: space-between" to evenly space out my headshot image, title (Hannah Dowell) and navigation links across the header. I used flex-direction: column, justify-content: center to align the nav links to match my wireframe. Then, I added the pseudo class "nav a:hover" to add a box around each nav link only when hovered over. The first step ensures that the header is responsive and the second that it is dynamic and interesting.
 
-![](assets\02hwcommit2cssnav.PNG)
+<img src="assets\02hwcommit2cssnav.PNG" style="zoom:33%;" />
 
 - Next, I styled the div & h2 elements using the percentage and rem units so that the page would be responsive.
 - I styled the section element to create a grid that contains all of the figures, which contain links to my applications. 💡I used the element **"fr"** unit, making it so that I would not need to use media queries to make the grid responsive. 💡
