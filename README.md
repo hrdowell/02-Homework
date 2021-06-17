@@ -70,8 +70,10 @@ I decided that the WORK section CSS would include the measurement "rem" and CSS 
 <img src="assets\02hwcommit2cssnav.PNG" style="zoom:33%;" />
 
 - Next, I styled the div & h2 elements using the percentage and rem units so that the page would be responsive.
-- I styled the section element to create a grid that contains all of the figures, which contain links to my applications. 💡I used the element **"fr"** unit, making it so that I would not need to use media queries to make the grid responsive. 💡
+- I styled the section element to create a grid that contains all of the figures, which contain links to my applications. 💡I used the newer element **"fr"** unit to help make the grid responsive. 💡
 - I used the pseudo class ":hover"🛸 to change the opacity of the figures when the mouse hovers over them. I also added the property "max-width: 100%" to all image elements so that they will change sizes proportionate to the size of the screen.
+- Lastly, I added a media query at the end of my CSS file to modify my application for smaller screens. I decreased font size and margins across the board. I changed the grid layout for the "my work" section to a simpler inline-block style, while maintaining that the first figure appeared larger than the rest. These changes apply to screens that are 768px wide and smaller.
+
 
 <img src="assets\02hwcommit2csswork.PNG" style="zoom:20%;" />
 

@@ -104,3 +104,62 @@ footer {
     text-align: center;
     color: white;
 }
+
+/* MEDIA QUERY STYLING */
+@media only screen and (max-width: 768px) {
+    header img {
+        height: 50px;
+    }
+
+    h1 {
+        font-size: 1rem;
+        padding: 20px;
+    }
+
+    nav a{
+        font-size: 0.5rem;
+        padding: 0;
+    }
+
+    div {
+        font-size: 50%;
+        
+    }
+
+    h2 {
+        font-size: 0.8rem;
+    }
+
+    section {
+        display: block;
+    }
+
+    #box1 img {
+        width: 100%;
+    }
+
+    figure {
+       
+    }
+
+    figcaption {
+        font-size: 0.5rem;
+    }
+    
+    figure {
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+    }
+
+    figure img {
+        width: 50%;
+    }
+
+    footer {
+        font-size: .6rem;
+    }
+}
+
